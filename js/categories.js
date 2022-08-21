@@ -1,33 +1,42 @@
 async function populate() {
 
-  const requestURL = 'data/mainfolders.json';
-  const request = new Request(requestURL);
+	const requestURL = 'data/mainfolders.json';
+	const request = new Request(requestURL);
 
-  const response = await fetch(request);
-  const superHeroes = await response.json();
+	const response = await fetch(request);
+	const idleDrive = await response.json();
 
-  populateCategories(categories);
+	populateCategory(idleDrive);
+	populateFolders(idleDrive);
 
 }
 
-function populateCategories(obj) {
-  const section = document.querySelector('section');
-  const categories = obj.mainFolders;
-
-  for (const category of categories) {
-    const myArticle = document.createElement('article');
-    const myH2 = document.createElement('h2');
-    const myPara1 = document.createElement('p');
-    const myPara2 = document.createElement('p');
-
-    myH2.textContent = category.name;
-    myPara1.textContent = category.fullPath;
-    myPara2.textContent = `Drive Link: ${category.URL}`;
-
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-
-    section.appendChild(myArticle);
-  }
+function populateCategory(obj) {
+	const header = document.querySelector('header');
+	const myH1 = document.createElement('h1');
+	myH1.textContent = obj.category;
+	header.appendChild(myH1);
 }
+
+function populateFolders(obj) {
+	const container = document.querySelector('container');
+	const folderNames = obj.folders;
+
+	for (const folder of folderNames) {
+		const idleArticles = document.createElement('container');
+		const folderTitle = document.createElement('h2');
+		const driveLink = new Image(50,50);
+
+		folderTitle.textContent = folder.name;
+		driveLink.src ='images/idledrive.png';
+		driveLink.onclick = function() {
+			window.location.href = 'folder.url';
+		}
+
+		idleArticles.appendChild(folderTitle);
+		idleArticles.appendChild(driveLink);
+		container.appendChild(idleArticles);
+	}
+}
+
+populate();

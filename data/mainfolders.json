@@ -1,76 +1,77 @@
 {
-	"mainFolders": [
-    {
+  "category" : "(G)I-DLE Video Archive",
+  "folders" : [
+		{
         "fullPath": "vlogs",
         "name": "Vlogs",
         "type": "Folder",
         "url": "https://drive.google.com/drive/folders/1g02Nr38iXnb8eUt9N-hkVF_-neC77_Xo"
     },
-    {
-        "fullPath": "song_covers",
-        "name": "Song Covers",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/1cfsfvKz4NjloYBZ3iDxIzDz7Ww9i9GHD"
-    },
-    {
-        "fullPath": "promo_videos",
-        "name": "Promo Videos (Intros, Concept Videos, Teasers, Showcases)",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/1_lqhnp4_DTUyv6stmaxv0QjaJwD7utv7"
-    },
-    {
-        "fullPath": "dance_covers",
-        "name": "Dance Covers",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/1aGOW2HLlumzjP5WqWzT87IrQWLS_VzSg"
-    },
-    {
-        "fullPath": "dance_practice_videos",
-        "name": "Dance Practice Videos",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/1a4UQWALf8ENkxch9D1LjXdt4zNndUkOq"
-    },
-    {
-        "fullPath": "live_streams",
-        "name": "Live Streams",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/123cKEuvHzLJ7HXdUanLwWS7p3UBOXehL"
-    },
-    {
-        "fullPath": "misc",
-        "name": "Misc",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/1CEArp0GvEYYUC4RSZ3U8ATSbEhRKMfqE"
-    },
-    {
-        "fullPath": "variety_shows",
-        "name": "Variety Shows",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/19sDngeyWsqD8SrxW_KWxOLwiQ71vudzJ"
-    },
-    {
-        "fullPath": "music_shows",
-        "name": "Music Shows",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/19zN2rtJY4xAHcjKQJqqdN61U9IhqNPru"
-    },
-    {
-        "fullPath": "universe_radio",
-        "name": "Universe Radio",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/13-m_7fRWXMSjPa6U_BTDIern4F5bAKo6"
-    },
-    {
-        "fullPath": "concerts",
-        "name": "Concerts",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/11WfQCeneLKCi_JI860q3hrXTO_6xU2_i"
-    },
-    {
-        "fullPath": "music_videos",
-        "name": "Music Videos",
-        "type": "Folder",
-        "url": "https://drive.google.com/drive/folders/11NGBoJl1TdUeLqvw_0xkI4fVWElnJVRp"
-    }
-]
-	}
+		{
+		        "fullPath": "song_covers",
+		        "name": "Song Covers",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/1cfsfvKz4NjloYBZ3iDxIzDz7Ww9i9GHD"
+		    },
+		    {
+		        "fullPath": "promo_videos",
+		        "name": "Promo Videos (Intros, Concept Videos, Teasers, Showcases)",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/1_lqhnp4_DTUyv6stmaxv0QjaJwD7utv7"
+		    },
+		    {
+		        "fullPath": "dance_covers",
+		        "name": "Dance Covers",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/1aGOW2HLlumzjP5WqWzT87IrQWLS_VzSg"
+		    },
+		    {
+		        "fullPath": "dance_practice_videos",
+		        "name": "Dance Practice Videos",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/1a4UQWALf8ENkxch9D1LjXdt4zNndUkOq"
+		    },
+		    {
+		        "fullPath": "live_streams",
+		        "name": "Live Streams",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/123cKEuvHzLJ7HXdUanLwWS7p3UBOXehL"
+		    },
+		    {
+		        "fullPath": "misc",
+		        "name": "Misc",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/1CEArp0GvEYYUC4RSZ3U8ATSbEhRKMfqE"
+		    },
+		    {
+		        "fullPath": "variety_shows",
+		        "name": "Variety Shows",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/19sDngeyWsqD8SrxW_KWxOLwiQ71vudzJ"
+		    },
+		    {
+		        "fullPath": "music_shows",
+		        "name": "Music Shows",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/19zN2rtJY4xAHcjKQJqqdN61U9IhqNPru"
+		    },
+		    {
+		        "fullPath": "universe_radio",
+		        "name": "Universe Radio",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/13-m_7fRWXMSjPa6U_BTDIern4F5bAKo6"
+		    },
+		    {
+		        "fullPath": "concerts",
+		        "name": "Concerts",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/11WfQCeneLKCi_JI860q3hrXTO_6xU2_i"
+		    },
+		    {
+		        "fullPath": "music_videos",
+		        "name": "Music Videos",
+		        "type": "Folder",
+		        "url": "https://drive.google.com/drive/folders/11NGBoJl1TdUeLqvw_0xkI4fVWElnJVRp"
+		    }
+  ]
+}
