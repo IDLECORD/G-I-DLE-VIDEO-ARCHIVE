@@ -19,11 +19,10 @@ function populateCategories(obj) {
     const myH2 = document.createElement('h2');
     const myPara1 = document.createElement('p');
     const myPara2 = document.createElement('p');
-    const myList = document.createElement('ul');
 
-    myH2.textContent = categories.name;
-    myPara1.textContent = `${categories.fullPath}`;
-    myPara2.textContent = `Drive Link: ${categories.URL}`;
+    myH2.textContent = category.name;
+    myPara1.textContent = category.fullPath;
+    myPara2.textContent = `Drive Link: ${category.URL}`;
 
     myArticle.appendChild(myH2);
     myArticle.appendChild(myPara1);
