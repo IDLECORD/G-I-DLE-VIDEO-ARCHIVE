@@ -32,7 +32,7 @@ function populateFolders(obj) {
 		driveLink.onclick = function() {
 			window.location.href = 'folder.url';
 		}
-
+		driveLink.className += "driveIMG";
 		idleArticles.appendChild(folderTitle);
 		idleArticles.appendChild(driveLink);
 		container.appendChild(idleArticles);
