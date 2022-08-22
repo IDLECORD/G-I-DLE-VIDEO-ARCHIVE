@@ -23,7 +23,7 @@ function populateFolders(obj) {
 	const folderNames = obj.folders;
 
 	for (const folder of folderNames) {
-		const idleArticles = document.createElement('container');
+		const idleArticles = document.createElement('contend-card');
 		const folderTitle = document.createElement('h2');
 		const driveLink = new Image(50,50);
 
